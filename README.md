@@ -2,7 +2,7 @@
 
 > 🚀 A simple AI-powered application that extracts text from YouTube videos and generates a concise summary using an LLM.
 
-## ✨ Features
+##  Features
 
 * 🔗 Enter any YouTube video link
 * 📝 Extract the available video transcript
@@ -11,7 +11,7 @@
 * ⚡ Simple and easy-to-use Streamlit interface
 * 🛡️ Basic error handling for transcript extraction
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * 🐍 **Python**
 * 🎨 **Streamlit**
@@ -21,7 +21,7 @@
 * ▶️ **YouTube Transcript API**
 * 🤖 **OpenAI LLM**
 
-## ⚙️ How It Works
+##  How It Works
 
 1. 🔗 Enter a YouTube video URL.
 2. 📥 Click **Extract Text**.
@@ -32,7 +32,7 @@
 7. 🧠 The transcript is sent to the LLM.
 8. ✨ The generated summary is displayed on the screen.
 
-## 📦 Installation
+##  Installation
 
 Install the required packages using the VS Code terminal:
 
@@ -40,7 +40,7 @@ Install the required packages using the VS Code terminal:
 py -m pip install streamlit langchain-core==0.3.79 langchain-community==0.3.31 langchain-openai==0.3.35 youtube-transcript-api==1.2.2
 ```
 
-## ▶️ Running the Project
+##  Running the Project
 
 Run:
 
@@ -48,9 +48,9 @@ Run:
 py -m streamlit run ytloader.py
 ```
 
-🌐 The Streamlit application will open in your web browser.
+ The Streamlit application will open in your web browser.
 
-## 🔑 API Key
+##  API Key
 
 The summarization feature requires an OpenAI API key.
 
@@ -60,19 +60,10 @@ Add your API key in the Python file:
 api_key = "YOUR_API_KEY"
 ```
 
-⚠️ **Important:** Never upload your real API key to GitHub. Keep it private.
+ **Important:** Never upload your real API key to GitHub. Keep it private.
 
-## 🎯 Project Purpose
-
-This project was created as a learning task to understand how **YouTube transcript extraction, Streamlit, LangChain, and Large Language Models (LLMs)** can work together to create a useful AI-powered application.
-
-## 👨‍💻 Author
-
+##  Author
 **Abdullah Gufran**
-
-⭐ If you found this project interesting, feel free to explore the code and learn from it!
-# Youtube-Transcript-Loader
-A simple Streamlit-based YouTube Video Loader that extracts transcript text from YouTube videos and uses an LLM to generate a concise summary.
 
 ---
 
